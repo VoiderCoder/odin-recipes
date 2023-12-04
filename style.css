@@ -6,6 +6,35 @@ html {
     background-color: whitesmoke;
 }
 
+nav {
+    padding: 12px;
+    border-bottom: 1px dotted hsl(0deg 0% 0% / 0.2);
+}
+
+.nav-header {
+    align-items: baseline;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 12px;
+}
+
+.nav-header li {
+    list-style-type: none;
+}
+
+.nav-header a {
+    color: inherit;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.logo {
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin-right: auto;
+}
+
 #home-header {
     color: #a8324a;
 }
@@ -13,6 +42,10 @@ html {
 .recipe-header {
     color: #bf415a;
     background-color: #a8324a30;
+}
+
+h1 {
+    font-size: 1.6rem;
 }
 
 h2,
@@ -35,10 +68,11 @@ li a {
     border-radius: 5px;
     padding: 5px;
     display: flex;
+    justify-content: center;
+    gap: 32px;
 }
 
 .recipe-list-item {
-    margin: 5px 15px 5px 20px;
     font-weight: bold;
 }
 
