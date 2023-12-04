@@ -21,9 +21,7 @@ h3 {
 }
 
 li {
-    list-style-type: none;
     list-style-type: square;
-    display: inline;
 }
 
 li a {
@@ -36,10 +34,11 @@ li a {
     border: 1px solid #ccc;
     border-radius: 5px;
     padding: 5px;
+    display: flex;
 }
 
 .recipe-list-item {
-    margin: 5px 15px 5px 5px;
+    margin: 5px 15px 5px 20px;
     font-weight: bold;
 }
 
