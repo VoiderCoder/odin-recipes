@@ -20,6 +20,29 @@ h3 {
     font-style: italic;
 }
 
-ul {
+li {
+    list-style-type: none;
+    list-style-type: square;
+    display: inline;
+}
+
+li a {
+    text-decoration: none;
+}
+
+#recipe-list {
     font-size: 20px;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.recipe-list-item {
+    margin: 5px 15px 5px 5px;
+    font-weight: bold;
+}
+
+.recipe-list-item:hover {
+    background-color: #ddd;
 }
